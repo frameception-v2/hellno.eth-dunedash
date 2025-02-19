@@ -370,3 +370,25 @@ I have this dune query that I want to show in a Farcaster frame. I want to show 
 https://dune.com/queries/4666478?emoticon_t6c1ea=%F0%9F%A5%9C
 
 
+# Farcaster Dune Leaderboard Implementation Checklist
+
+## Phase 1: Core Infrastructure
+- [ ] Set up Dune API client configuration
+- [ ] Create types for leaderboard data and user position
+- [ ] Implement data fetching service for Dune query
+
+## Phase 2: Frame Integration
+- [ ] Create leaderboard display component
+- [ ] Add user position highlighting logic
+- [ ] Implement loading states and error handling
+
+## Phase 3: Wallet Context Integration
+- [ ] Connect Farcaster wallet context to Dune query
+- [ ] Add address validation and normalization
+- [ ] Implement user position tracking in list
+
+## Phase 4: Final Polish
+- [ ] Add UI feedback for position changes
+- [ ] Implement caching strategy for Dune data
+- [ ] Add error boundary components
+- [ ] Write integration tests
